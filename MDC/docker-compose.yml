@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mdc.webapi:
+    image: mdcwebapi
+    build:
+      context: .
+      dockerfile: MDC.WebApi\Dockerfile
